@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head lang="pt_Br">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>ENGK Construções Industriais</title>
+	<meta name="description" content="Capital Training, treinamento funcionlal." />
+	<meta name="keywords" content="treino funcional, exercicios, educacao fisica, funcional, atividade fisica">
+	<meta property="og:title" content="">
+
+	{% load static from staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'fancybox/jquery.fancybox-v=2.1.5.css' %}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{% static 'font-awesome-4.5.0/css/font-awesome.min.css' %}" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+	<link rel="prefetch" href="{% static 'images/zoom.png' %}">
+	{% block header %}{% endblock header %}
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top" data-activeslide="1">
+		<div class="container">
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row">
+					<img src="{% static 'images/engek.png' %}" align='left'/><br>
+					<!-- <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span></a></li> -->
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-star-o"></span> <span class="text">QUEM SOMOS?</span></a></li>
+					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="fa fa-camera-retro"></span> <span class="text">PORTFÓLIO</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-envelope"></span> <span class="text">CONTATO</span></a></li>
+				</ul>
+			</div>
+		 	<!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+	<!-- === Slide 2 - Process === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Quem somos?</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-12 font-light">
+					Nós da ENGK Construções Industriais somos uma empresa direcionada à fabricação, inspeção e disponibilização de mão de obra nas áreas de equipamentos industriais metalúrgicos e siderúrgicos e também de indústrias químicas e petroquímicas. 
+					Trabalhando em parceiria com a KGM Soldas Industriais, possuímos um corpo técnico capacitado a atenter demandas de diversas áreas, tais como:<br>
+					<div class="row content-row" >
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Caldeiraria
+						</div>
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Oleoduto
+						</div>
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Gasoduto
+						</div>
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Adutora
+						</div>
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Soldagem em Geral
+						</div>
+						<div class="col-10 col-lg-6">
+							<span class="fa fa-check"></span> Montagem Industrial
+						</div>
+						<div>
+							<span class="fa fa-check"></span> Manutenção Industrial
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+
+	<!-- === SLide 3 - Portfolio -->
+	<div class="slide story" id="slide-3" data-slide="3">
+		<div class="container">
+			<h1 class="font-thin"><span class="font-semibold"> Portfólio</span></h1>
+
+        	<!-- <div class="row content-row"> -->
+				<section class="image-gallery group">
+
+        			<figure tabindex="1"><img src="{% static 'images/portfolio/engekFoto1.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="2"><img src="{% static 'images/portfolio/engekFoto2.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="3"><img src="{% static 'images/portfolio/engekFoto3.png' %}"></figure>
+        			<br>
+        			<figure tabindex="4"><img src="{% static 'images/portfolio/engekFoto4.png' %}"></figure>
+        			<br>
+        			<figure tabindex="5"><img src="{% static 'images/portfolio/engekFoto5.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="6"><img src="{% static 'images/portfolio/engekFoto6.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="7"><img src="{% static 'images/portfolio/engekFoto7.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="8"><img src="{% static 'images/portfolio/engekFoto8.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="9"><img src="{% static 'images/portfolio/engekFoto9.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="10"><img src="{% static 'images/portfolio/engekFoto10.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="11"><img src="{% static 'images/portfolio/engekFoto11.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="12"><img src="{% static 'images/portfolio/engekFoto12.png' %}"/></figure>
+        			<br>
+        			<figure tabindex="13"><img src="{% static 'images/portfolio/engekFoto13.png' %}"/></figure>
+
+        		</section>
+        	<!-- </div> -->
+        <br><br><br><br>
+		</div><!-- /row -->
+	</div><!-- /slide3 -->
+
+	<!-- === Slide 4 / Contact === -->
+	<div class="slide story" id="slide-4" data-slide="4">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-light"><span class="font-semibold">Contato</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div id="contact-row-4" class="row content-row">
+				<!-- <div class="col-sm-1 hidden-sm">&nbsp;</div> -->
+				<div class="col-12 col-sm-6 with-hover-text">
+					<p><i class="fa fa-3x fa-whatsapp"></i></p>
+					<span class="hover-text font-light ">
+						62 98210-2977 (Pedro) &nbsp; &nbsp;  62 98513-3071 (Allisson)
+					</span>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-6 with-hover-text">
+					<p><i class="fa fa-3x fa-envelope"></i></p>
+					<span class="hover-text font-light ">
+						engkconstrucoes@gmail.com
+					</span>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /Slide 4 -->
+
+</body>
+
+	<!-- SCRIPTS -->
+	<script src="{% static 'js/html5shiv.js' %}"></script>
+	<script src="{% static 'js/jquery-1.10.2.min.js' %}"></script>
+	<script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+
+	<script src="{% static 'js/script.js' %}"></script>
+
+</html>
